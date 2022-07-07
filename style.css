@@ -6,26 +6,28 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-html, body {
-    height: 100vh;
-  }
-   
-  body {
-    overflow: hidden;
-  }
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+nav h2{
+  color: #f7f5f4;
+}
+
 .navbar {
     background-color: #252323;
     z-index: 1000;
   }
   
   .navbar .navbar-brand {
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 2rem;
+    margin-right: 0.5rem;
   }
 
   .about {
     background: #000;
-    height: 83vh;
+    height: 100%;
   }
   
   .about .text {
@@ -70,12 +72,13 @@ html, body {
 
 #resultado{
     font-weight: bold;
-    font-size: 6rem;
+    font-size: 5rem;
     text-align: center;
+    color: #f7f5f4;
 }
 
 span{
-    color: #313bac;
+    color: #00BF85;
 
 }
 .flecha{

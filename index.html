@@ -17,11 +17,11 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-            <h2><span class='flecha navbar-brand'>&lt;</span>AT<span>/</span><span className='flecha'>&gt;</span></h2>
+            <h2><span class='flecha  navbar-brand'>&lt;</span>AT<span>/</span><span class='flecha'>&gt;</span></h2>
         </nav>
     </header>
-    <section class="about conteiner py-5">
-        <div class="row align-items-center container my-5 mx-auto" data-aos="fade-down" data-aos-duration="1000">
+    <section class="about conteiner">
+        <div class="row align-items-center container mt-5 mx-auto" data-aos="fade-down" data-aos-duration="1000">
             <div class="text col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
                 <h6>ES UN PERRO O UN GATO</h6>
                 <h2>Clasificaci&oacute;n de im&aacute;genes usando la c&aacute;mara web</h2>
@@ -30,7 +30,7 @@
             </div>
             <div class="img col-lg-6 col-md-6 col-12 w-50 pt-5 pb-5">
                 <video id="video" class="img-fluid" playsinline autoplay style="width: 1px;"></video> 
-                <canvas id="canvas" width="400" height="400" style="max-width: 100%;"></canvas>
+                <canvas id="canvas" class="mx-auto" width="400" height="400" style="max-width: 100%; display: block;"></canvas>
                 <canvas id="otrocanvas" width="90" height="90" style="display: none"></canvas>
                 <div id="resultado"></div>  
                 <!-- <div class="b-example-divider"></div> -->
@@ -73,7 +73,7 @@
       
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2022 Copyright: TODOS LOS DERECHOS RESERVADOS
+          <p>© 2022 ANTONIO TEPSICH: TODOS LOS DERECHOS RESERVADOS</p> 
         <!-- Copyright -->
       </footer>
         
@@ -88,6 +88,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
 
-    <!-- <script src="main.js"></script> -->
+    <script src="main.js"></script>
 </body>
 </html>
