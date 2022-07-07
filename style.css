@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html, body {
+    height: 100vh;
+  }
+   
+  body {
+    overflow: hidden;
+  }
+.navbar {
+    background-color: #252323;
+    z-index: 1000;
+  }
+  
+  .navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .about {
+    background: #000;
+    height: 83vh;
+  }
+  
+  .about .text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin: auto;
+  }
+  .about .text h6 {
+    color: #00BF85;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+  }
+  
+  .about .text h2 {
+    color: #f7f5f4;
+    font-weight: 700;
+    font-size: 2.7rem;
+  }
+  
+  .about .text p {
+    color: #f7f5f4;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+  }
+
+  body > footer {
+    background: rgba(17, 17, 17, 0.952) !important;
+  }
+
+#resultado{
+    font-weight: bold;
+    font-size: 6rem;
+    text-align: center;
+}
+
+span{
+    color: #313bac;
+
+}
+.flecha{
+    font-size: 2rem;
+}
